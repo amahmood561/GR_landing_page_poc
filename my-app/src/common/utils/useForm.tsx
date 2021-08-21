@@ -32,7 +32,7 @@ export const useForm = (validate: any) => {
       Subject : Object.keys(values)[1],
       Body : Object.keys(values)[2] + ' ' +  Object.keys(values)[0]
     })
-
+    //https://www.smtpjs.com/
     const url = "";
     if (Object.keys(values).length === 3) {
       let send = await smtpjs.send({
