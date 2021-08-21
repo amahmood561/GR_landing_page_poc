@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Light, fast & responsive team",
+  "text": "We have ready to use templates for landing pages, so you don't need to worry about anything. We also build full front end solutions in react, angular, or vue",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why Tech Guys?",
+      "content": "We use existing libraries and create new ones on the fly when needed. We build elegant UI's quickly and make use of existing frameworks we do not recreate the wheel.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Need Full Stack?",
+      "content": "We are subject matter experts of our domain. We will build out solutions top down using latest front end frameworks and backend frameworks.  ",
       "icon": "notes.svg"
     }
   ]

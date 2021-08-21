@@ -3,7 +3,8 @@ import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import { Button } from "../../common/Button";
 import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
-
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 interface MiddleBlockProps {
   title: string;
   content: string;
