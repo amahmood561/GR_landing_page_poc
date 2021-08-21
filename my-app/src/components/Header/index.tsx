@@ -1,17 +1,17 @@
-import { useState } from "react";
-import { Row, Col, Drawer } from "antd";
-import { withTranslation } from "react-i18next";
+import {useState} from "react";
+import {Col, Drawer, Row} from "antd";
+import {withTranslation} from "react-i18next";
 import Container from "../../common/Container";
-import { SvgIcon } from "../../common/SvgIcon";
-import { Button } from "../../common/Button";
+import {SvgIcon} from "../../common/SvgIcon";
+import {Button} from "../../common/Button";
 import {
-  HeaderSection,
-  LogoContainer,
   Burger,
-  NotHidden,
-  Menu,
   CustomNavLinkSmall,
+  HeaderSection,
   Label,
+  LogoContainer,
+  Menu,
+  NotHidden,
   Outline,
   Span,
 } from "./styles";
