@@ -1,0 +1,35 @@
+{
+  "files": {
+    "static/js/0.59044be2.chunk.js": "/GR_landing_page_poc/static/js/0.59044be2.chunk.js",
+    "static/js/0.59044be2.chunk.js.map": "/GR_landing_page_poc/static/js/0.59044be2.chunk.js.map",
+    "static/js/1.f2d54943.chunk.js": "/GR_landing_page_poc/static/js/1.f2d54943.chunk.js",
+    "static/js/1.f2d54943.chunk.js.map": "/GR_landing_page_poc/static/js/1.f2d54943.chunk.js.map",
+    "main.js": "/GR_landing_page_poc/static/js/main.c2ffbb23.chunk.js",
+    "main.js.map": "/GR_landing_page_poc/static/js/main.c2ffbb23.chunk.js.map",
+    "runtime-main.js": "/GR_landing_page_poc/static/js/runtime-main.7852f30c.js",
+    "runtime-main.js.map": "/GR_landing_page_poc/static/js/runtime-main.7852f30c.js.map",
+    "static/css/4.97a13557.chunk.css": "/GR_landing_page_poc/static/css/4.97a13557.chunk.css",
+    "static/js/4.710f14db.chunk.js": "/GR_landing_page_poc/static/js/4.710f14db.chunk.js",
+    "static/js/4.710f14db.chunk.js.map": "/GR_landing_page_poc/static/js/4.710f14db.chunk.js.map",
+    "static/js/5.28bdf561.chunk.js": "/GR_landing_page_poc/static/js/5.28bdf561.chunk.js",
+    "static/js/5.28bdf561.chunk.js.map": "/GR_landing_page_poc/static/js/5.28bdf561.chunk.js.map",
+    "static/js/6.55c9d525.chunk.js": "/GR_landing_page_poc/static/js/6.55c9d525.chunk.js",
+    "static/js/6.55c9d525.chunk.js.map": "/GR_landing_page_poc/static/js/6.55c9d525.chunk.js.map",
+    "static/js/7.786535bc.chunk.js": "/GR_landing_page_poc/static/js/7.786535bc.chunk.js",
+    "static/js/7.786535bc.chunk.js.map": "/GR_landing_page_poc/static/js/7.786535bc.chunk.js.map",
+    "static/js/8.d10a16f4.chunk.js": "/GR_landing_page_poc/static/js/8.d10a16f4.chunk.js",
+    "static/js/8.d10a16f4.chunk.js.map": "/GR_landing_page_poc/static/js/8.d10a16f4.chunk.js.map",
+    "static/js/9.2a6431bc.chunk.js": "/GR_landing_page_poc/static/js/9.2a6431bc.chunk.js",
+    "static/js/9.2a6431bc.chunk.js.map": "/GR_landing_page_poc/static/js/9.2a6431bc.chunk.js.map",
+    "index.html": "/GR_landing_page_poc/index.html",
+    "static/css/4.97a13557.chunk.css.map": "/GR_landing_page_poc/static/css/4.97a13557.chunk.css.map",
+    "static/js/1.f2d54943.chunk.js.LICENSE.txt": "/GR_landing_page_poc/static/js/1.f2d54943.chunk.js.LICENSE.txt",
+    "static/js/4.710f14db.chunk.js.LICENSE.txt": "/GR_landing_page_poc/static/js/4.710f14db.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7852f30c.js",
+    "static/css/4.97a13557.chunk.css",
+    "static/js/4.710f14db.chunk.js",
+    "static/js/main.c2ffbb23.chunk.js"
+  ]
+}
