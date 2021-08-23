@@ -41,24 +41,30 @@ export const useForm = (validate: any) => {
         Subject : name,
         Body : message + ' ' + email
       })
+
       console.log(send)
+
+      let headers = new Headers();
+      headers.append('Content-Type', 'application/json');
+      headers.append('Accept', 'application/json');
+      headers.append('Access-Control-Allow-Origin', "*");
+      headers.append('Access-Control-Allow-Credentials', 'true');
+      headers.append('GET', 'POST');
+      //http://desolate-taiga-68374.herokuapp.com/v1/customemail
+      let request = await axios.post('http://desolate-taiga-68374.herokuapp.com/v1/customemail', {
+        subject: name,
+        message:  message + ' ' + email
+      })
+      /*
+      let request = await axios.post('http://127.0.0.1:5000/v1/customemail', {
+        subject: name,
+        message:  message + ' ' + email
+      })*/
+
+      console.log(request)
+      // hit custom api
       if (send == "OK"){
         console.log("sent successful")
-      } else{
-        let headers = new Headers();
-        headers.append('Content-Type', 'application/json');
-        headers.append('Accept', 'application/json');
-        headers.append('Access-Control-Allow-Origin', "*");
-        headers.append('Access-Control-Allow-Credentials', 'true');
-        headers.append('GET', 'POST');
-
-        console.log("do axios request")
-        let request = await axios.post('http://127.0.0.1:5000/v1/customemail', {
-          subject: name,
-          message:  message + ' ' + email
-        })
-        console.log(request)
-        // hit custom api
       }
     }
   };
