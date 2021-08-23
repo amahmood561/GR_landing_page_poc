@@ -21,27 +21,48 @@ export const useForm = (validate: any) => {
   const handleSubmit = async (event: React.ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
     setErrors(validate(values));
-    // Your url for API  23252e3b-a401-4294-ac28-f8600e084f1b
     console.log(Object.keys(values))
+    console.log(values)
+    //@ts-ignore
+    let email: string = values.email
+    //@ts-ignore
+    let name: string = values.name
+    //@ts-ignore
+    let message: string = values.message
+    console.log(message)
 
-
-    let send = await smtpjs.send({
-      SecureToken : "23252e3b-a401-4294-ac28-f8600e084f1b",
-      To : 'amahmood561@gmail.com',
-      From : 'amahmood561@gmail.com',
-      Subject : Object.keys(values)[1],
-      Body : Object.keys(values)[2] + ' ' +  Object.keys(values)[0]
-    })
-
+    //https://www.smtpjs.com/
     const url = "";
     if (Object.keys(values).length === 3) {
       let send = await smtpjs.send({
         SecureToken : "23252e3b-a401-4294-ac28-f8600e084f1b",
         To : 'amahmood561@gmail.com',
         From : 'amahmood561@gmail.com',
-        Subject : Object.keys(values)[1],
-        Body : Object.keys(values)[2] + ' ' +  Object.keys(values)[0]
+        Subject : name,
+        Body : message + ' ' + email
       })
+
+      console.log(send)
+
+      let headers = new Headers();
+      headers.append('Content-Type', 'application/json');
+      headers.append('Accept', 'application/json');
+      headers.append('Access-Control-Allow-Origin', "*");
+      headers.append('Access-Control-Allow-Credentials', 'true');
+      headers.append('GET', 'POST');
+      //http://desolate-taiga-68374.herokuapp.com/v1/customemail
+      let request = await axios.post('http://desolate-taiga-68374.herokuapp.com/v1/customemail', {
+        subject: name,
+        message:  message + ' ' + email
+      })
+      /*
+      let request = await axios.post('http://127.0.0.1:5000/v1/customemail', {
+        subject: name,
+        message:  message + ' ' + email
+      })*/
+
+      console.log(request)
+      // hit custom api
       if (send == "OK"){
         console.log("sent successful")
       }
