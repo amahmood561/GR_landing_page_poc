@@ -4,8 +4,8 @@
     "static/js/0.59044be2.chunk.js.map": "/GR_landing_page_poc/static/js/0.59044be2.chunk.js.map",
     "static/js/1.f2d54943.chunk.js": "/GR_landing_page_poc/static/js/1.f2d54943.chunk.js",
     "static/js/1.f2d54943.chunk.js.map": "/GR_landing_page_poc/static/js/1.f2d54943.chunk.js.map",
-    "main.js": "/GR_landing_page_poc/static/js/main.98adbfeb.chunk.js",
-    "main.js.map": "/GR_landing_page_poc/static/js/main.98adbfeb.chunk.js.map",
+    "main.js": "/GR_landing_page_poc/static/js/main.c7b8786d.chunk.js",
+    "main.js.map": "/GR_landing_page_poc/static/js/main.c7b8786d.chunk.js.map",
     "runtime-main.js": "/GR_landing_page_poc/static/js/runtime-main.7852f30c.js",
     "runtime-main.js.map": "/GR_landing_page_poc/static/js/runtime-main.7852f30c.js.map",
     "static/css/4.97a13557.chunk.css": "/GR_landing_page_poc/static/css/4.97a13557.chunk.css",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.7852f30c.js",
     "static/css/4.97a13557.chunk.css",
     "static/js/4.710f14db.chunk.js",
-    "static/js/main.98adbfeb.chunk.js"
+    "static/js/main.c7b8786d.chunk.js"
   ]
 }
