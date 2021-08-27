@@ -51,7 +51,7 @@ export const useForm = (validate: any) => {
       headers.append('Access-Control-Allow-Credentials', 'true');
       headers.append('GET', 'POST');
       //http://desolate-taiga-68374.herokuapp.com/v1/customemail
-      let request = await axios.post('https://desolate-taiga-68374.herokuapp.com/v1/customemail', {
+      let request = await axios.post('https://mysterious-depths-52241.herokuapp.com/v1/customemail', {
         subject: name,
         message:  message + ' ' + email
       })
